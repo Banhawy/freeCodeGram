@@ -9,6 +9,11 @@ class Profile extends Model
     protected $guarded = [];
 
 
+    public function followers()
+    {
+        return $this->hasMany(User::class);
+    }
+
     public function profileImage()
     {
         $imagePath = ($this->image) ? $this->image : 'profile/84EVj0y1jIL1DoZzsHyiQwWWqFjGAF55PkrSBVqU.png';

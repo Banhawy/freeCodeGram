@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col-3 p-5">
-            <img src="https://scontent-ort2-1.cdninstagram.com/v/t51.2885-19/s150x150/83213956_3360255157381124_5752385570823208960_n.jpg?_nc_ht=scontent-ort2-1.cdninstagram.com&_nc_ohc=FsFGyFNBXkAAX9ZgTQa&oh=fb8f24614870ce5c0f5fc4a81db734d1&oe=5ED5D8C6" alt="fcc logo" class="rounded-circle">
+            <img src="/storage/{{ $user->profile->image }}" alt="profile image" class="rounded-circle w-100">
         </div>
         <div class="col-9 pt-5">
             <div>
